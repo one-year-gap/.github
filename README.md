@@ -66,8 +66,11 @@ Holiverse는 **통신사의 고객 데이터를 기반**으로 고객의 특성�
 <a id="admin-ui"></a>
 ## 🖥️ Admin UI (관리자 화면)
 
+<img width="2690" height="1436" alt="image" src="https://github.com/user-attachments/assets/014e0ce7-d079-4ff7-b78b-9df1f240e69c" />
 
-
+해당 페이지는 지역별 통계 페이지입니다.
+평균 ARPU(가입자당 평균 매출) 및 데이터 사용량을 확인 가능합니다.
+지도에서 지역을 클릭시 해당 지역의 ARPU 및 데이터 사용량 그래프가 추가적으로 보여지게 되고, 그래프 호버시 각 지역별 정보를 확인 가능합니다.
 
 
 ------
