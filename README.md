@@ -58,6 +58,7 @@ Holiverse는 **통신사의 고객 데이터를 기반**으로 고객의 특성�
 ## 🖥️ User UI (고객 화면)
 
 <img width="2290" height="874" alt="Image" src="https://github.com/user-attachments/assets/5cac47aa-f5d8-496d-839e-91b800913bb5" />
+
 ** 고객 - 스플래시 페이지, 로그인 페이지, 약관 페이지, 회원가입 페이지**
 - 스플래시 페이지
   - 대기시간 동안 로딩바가 채워지는 CSS를 적용시킬 예정입니다.
@@ -72,6 +73,7 @@ Holiverse는 **통신사의 고객 데이터를 기반**으로 고객의 특성�
   - 주소에서 상세주소는 생략하였습니다.
 
 <img width="402" height="874" alt="Image" src="https://github.com/user-attachments/assets/ebe31f67-754d-43fd-8aca-fca3ef78bc6b" />
+
 ** 고객 - 마이페이지**
 - 사용 패턴 분석 카드를 통해 데이터/통화/문자 사용량을 막대그래프 형태로 제공합니다.
 - 예상 요금을 통해 현재 사용 중인 요금제의 가격을 확인할 수 있습니다.
@@ -84,6 +86,7 @@ Holiverse는 **통신사의 고객 데이터를 기반**으로 고객의 특성�
      - 해당 페이지는 상품 페이지의 필터링 결과와 동일합니다.  
 
 <img width="2306" height="882" alt="Image" src="https://github.com/user-attachments/assets/38c5060e-1e13-4113-86fd-41b4da198257" />
+
 ** 고객 - 상품 페이지 **
 - 요금제 상품을 조회할 수 있는 페이지입니다.
 - 상단의 필터링을 통해 분류하여 조회가 가능합니다.
@@ -96,12 +99,14 @@ Holiverse는 **통신사의 고객 데이터를 기반**으로 고객의 특성�
   3. 요금제 변경
 
 <img width="524" height="874" alt="Image" src="https://github.com/user-attachments/assets/fd4828d1-850c-4e30-bc52-1a62984f55fc" />
+
 ** 고객 - 캐릭터 유형 페이지 **
 - UNIVERSE는 사용자의 서비스 이용 정보를 분석하여 고객 유형 캐릭터를 지정해줍니다.
 - 사용자는 캐릭터를 통해 본인의 서비스 사용 패턴을 인지할 수 있습니다.
 - 캐릭터 이미지 저장 기능을 통해 본인의 캐릭터를 남들과 공유할 수 있도록 할 예정입니다. 
 
 <img width="1346" height="874" alt="Image" src="https://github.com/user-attachments/assets/40013228-3964-44a5-be53-2ea232a6fed5" />
+
 ** 고객 - 마이 페이지, 쿠폰 페이지 **
 - 본인이 사용중인 요금제에서 제공하는 혜택을 확인할 수 있습니다.
 - 로그아웃을 할 수 있습니다.
@@ -114,6 +119,7 @@ Holiverse는 **통신사의 고객 데이터를 기반**으로 고객의 특성�
 ## 🖥️ Admin UI (관리자 화면)
 
 <img width="2954" height="1041" alt="Image" src="https://github.com/user-attachments/assets/381b62e8-39c4-4a76-8bae-bb2ac806c875" />
+
 ** 관리자 - 고객 통합 관리 페이지 **
 - 검색바, 필터링바를 통해서 조회 고객들을 필터링할 수 있습니다.
 - 필터링된 고객들에 대한 정보를 차트로 조회할 수 있습니다.
@@ -121,11 +127,13 @@ Holiverse는 **통신사의 고객 데이터를 기반**으로 고객의 특성�
   2. 월간 데이터 사용
 
 <img width="2684" height="1432" alt="image" src="https://github.com/user-attachments/assets/554eca27-5b69-43da-8a79-b55614c63948" />
+
 ** 관리자 - 지역별 통계 페이지 **
 - 평균 ARPU(가입자당 평균 매출) 및 데이터 사용량을 확인 가능합니다.
 - 지도에서 지역을 클릭시 해당 지역의 ARPU 및 데이터 사용량 그래프가 추가적으로 보여지게 되고, 그래프 호버시 각 지역별 정보를 확인 가능합니다.
 
 <img width="1440" height="1024" alt="Image" src="https://github.com/user-attachments/assets/b419ef63-ce5d-4909-81c7-55f661158fa0" />
+
 ** 관리자 - 고객특성 페이지 **
 - 고객 유형별 분포 조회
   1. 고객 페이지의 고객 유형 캐릭터와 동일한 분류입니다.
@@ -133,6 +141,7 @@ Holiverse는 **통신사의 고객 데이터를 기반**으로 고객의 특성�
 - 평균 ARPU 및 데이터 사용량 조회: 막대그래프를 클릭시 해당 유형의 ARPU 및 데이터 사용량 그래프가 보여지게 됩니다.
 
 <img width="1440" height="1024" alt="Image" src="https://github.com/user-attachments/assets/246e37d9-27e8-4fe9-bd58-1734684ee3cc" />
+
 ** 관리자 - 상담이력 페이지 **
 - 상담 키워드 버블 차트
   1. 상담 내요에서 추출된 주요 키워드를 버블 차트 형식으로 조회할 수 있습니다.
@@ -146,12 +155,14 @@ Holiverse는 **통신사의 고객 데이터를 기반**으로 고객의 특성�
   2. 상담 현환 종류: 완료, 진행중, 미처리
 
 <img width="1440" height="1024" alt="Image" src="https://github.com/user-attachments/assets/be4af9fe-8c6d-463f-a6f8-d2f1f6fe6b81" />
+
 ** 관리자 - 고객이탈 페이지 **
 - 이탈 위험군 고객 목록을 조회할 수 있습니다.
 - 이탈 위험군 인원의 증감 추이를 날짜별로 막대 그래프를 통해 조회할 수 있습니다.
 - 실시간 이탈 고객 피드를 통해 어떤 고객이 이탈 위험 지수를 높이는 활동을 했는지 조회할 수 있습니다.
 
 <img width="2950" height="1024" alt="Image" src="https://github.com/user-attachments/assets/05ced63e-4111-4fbf-9bca-4f348ff4ed04" />
+
 ** 관리자 - 레포트 페이지 **
 - AI가 데이터를 분석하여 보고서 및 제안서 초안을 작성 해줍니다.
 - 보고서는 PDF 형식으로 다운로드할 수 있습니다.
