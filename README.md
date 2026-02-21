@@ -41,7 +41,7 @@ Holiverse는 **통신사의 고객 데이터를 기반**으로 고객의 특성�
 ### Backend
 - Java 17 / Spring Boot 3.x: 도메인 중심 REST API 구축
 - Spring Security + JWT(OAuth2 확장): 인증/인가 및 소셜 로그인 연동
-- JPA(Hibernate) + QueryDSL: 핵심 도메인 CRUD + 복잡한 조회/통계 쿼리
+- JPA(Hibernate) + Jooq: 핵심 도메인 CRUD + 복잡한 조회/통계 쿼리
 - Spring Batch: 일 단위 고객 세그먼트/캐릭터 산출, 타겟 리스트 생성
 
 ### Data / Storage
