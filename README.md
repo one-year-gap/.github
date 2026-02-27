@@ -2,6 +2,11 @@
 > 고객 데이터 기반 고객 분석 서비스 (팀: 한살차이)
 ---
 
+<img width="882" height="486" alt="image" src="https://github.com/user-attachments/assets/8f91b899-599b-45f8-be9e-69dcf511fb03" />
+
+
+
+
 <a id="toc"></a>
 ## 📚 목차
 - [📌 프로젝트 소개](#overview)
