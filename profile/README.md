@@ -44,7 +44,7 @@
 
 ---
 
-## 📌 프로젝트 소개
+# 📌 프로젝트 소개
 
 **HOLLIVERSE**는 통신 서비스 이용 데이터를 기반으로 고객 행동을 분석하고 운영자가 고객을 더 쉽게 이해할 수 있도록 돕는 분석 플랫폼입니다.  
 또한 분석에 이어서, 고객의 특성에 맞춰 개인별로 맞춤형 추천을 해 **실질적 액션과 수익으로 이어지는 서비스**를 목표로 합니다.
@@ -57,11 +57,11 @@
 
 ---
 
-## 🎯 프로젝트 목표와 규모
+# 🎯 프로젝트 목표와 규모
 
 우리는 **일간 방문자 수 3만 명(DAU 30K)** 처리를 목표로 시스템을 설계하였습니다.
 
-### 서비스 트래픽 산출 근거
+## 서비스 트래픽 산출 근거
 
 <img src="/Users/haing/Ureka/최종 프로젝트/.github/profile/image.png" width="1000">
 
@@ -74,7 +74,7 @@
 
 ## 🛠️ Tech Stack
 
-### 💻 Frontend
+## 💻 Frontend
 
 <p>
   <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white">
@@ -92,7 +92,7 @@
 
 ---
 
-### ⚙️ Backend (Java / Spring)
+## ⚙️ Backend (Java / Spring)
 
 <p>
   <img src="https://img.shields.io/badge/Java_17-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white">
@@ -110,7 +110,7 @@
 
 ---
 
-### 🤖 AI / LLM Engine (Python)
+## 🤖 AI / LLM Engine (Python)
 
 <p>
   <img src="https://img.shields.io/badge/Python_3.11-3776AB?style=for-the-badge&logo=python&logoColor=white">
@@ -125,7 +125,7 @@
 
 ---
 
-### 🗄️ Data / Storage
+## 🗄️ Data / Storage
 
 <p>
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white">
@@ -138,7 +138,7 @@
 
 ---
 
-### ☁️ Infra / DevOps / Observability
+## ☁️ Infra / DevOps / Observability
 
 <p>
   <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white">
@@ -153,7 +153,7 @@
 
 ---
 
-### 🤝 Collaboration
+## 🤝 Collaboration
 
 > 프로젝트 협업 문서와 이슈를 아래 링크에서 바로 확인할 수 있습니다.
 
@@ -167,7 +167,7 @@
 
 ## 🖥️ Service UI
 
-### User Interface (B2C)
+## User Interface (B2C)
 
 Holiverse의 고객 화면은 **메인 분석, 상품 조회·비교, 캐릭터 페르소나, 마이페이지**로 구성되어 있습니다.
 
@@ -182,7 +182,7 @@ Holiverse의 고객 화면은 **메인 분석, 상품 조회·비교, 캐릭터 
 
 ---
 
-### Admin Interface (B2B)
+## Admin Interface (B2B)
 
 운영자는 웹 기반 관리자 화면에서 고객/지역/상담/이탈 정보를 한 눈에 모니터링할 수 있습니다.
 
@@ -201,67 +201,12 @@ Holiverse의 고객 화면은 **메인 분석, 상품 조회·비교, 캐릭터 
 - **[Flow 차트 바로가기](https://one-year-gap.github.io/docs/2026/03/12/%ED%99%94%EB%A9%B4-%ED%94%8C%EB%A1%9C%EC%9A%B0-%EC%84%A4%EA%B3%84/)**
 
 ---
-
-## 📌 핵심 기능 (Core Features)
-
-### 상담 분석 기능
-
-상담 데이터를 정형화하여 고객 이슈를 더 빠르게 파악하고, 운영자가 대응 우선순위를 판단할 수 있도록 돕습니다.
-
-- 키워드 분석
-- 키워드 추출 & 매핑 알고리즘 전략
-- 상담 감정 분석 알고리즘
-
----
-
-### 로그 수집 기능
-
-사용자 행동 로그를 구조적으로 수집하고, 이후 추천·분석·최근 본 상품 기능까지 연결될 수 있도록 설계하였습니다.
-
-- 로그 템플릿 설계
-- 로그 적재 저장소 선택 (S3 vs Postgres)
-- 최근 본 상품 조회
-
----
-
-### 캐릭터 배치 기능
-
-고객의 실제 사용량 데이터를 분석하여 **6가지 페르소나 중 하나를 부여하고 최적의 상품을 큐레이션**합니다.
-
-- **Data Driven:** 요금제, 데이터 사용량, 웨어러블 사용 여부 등 다각도 분석
-- **Batch Process:** 일 단위 배치를 통해 최신 고객 상태 반영 및 캐릭터 갱신
-
----
-
-### 개인별 추천 기능
-
-수집된 대량의 데이터를 AI가 분석하여 실행 가능한 전략(Action Items)을 제안합니다.
-
-- 상품 임베딩
-- 개인별 추천 시스템 RAG 프롬프트
-- **사용자 행동 로그 기반:** 사용자의 행동 로그를 수집하여 추천
-- **RAG Pipeline:** 정규화된 지표 컨텍스트를 LLM에 전달하여 고품질 리포트 생성
-
----
-
-### 이탈률 계산 기능
-
-정량적 기준(Rule Config)을 바탕으로 고객군을 분류하고 맞춤형 혜택을 제공합니다.
-
-- 이탈률 feature 설계
-- 이탈률 가중치 점수 산출
-- 이탈률 점수 로직 아키텍처
-- **이탈 위험군 탐지:** 약정 만료 D-30, 부정 키워드 감지, 사용량 30% 급감 등 복합 조건
-- **Executive Summary:** 관리자의 신속한 의사결정을 돕는 핵심 요약 및 리스크 요인 도출
-
----
-
 ## 🏗️ 백엔드 시스템 아키텍처
 
 > 아래와 같이 주요 기술적 고민 및 선택 과정을 아키텍처 설계 문서의 형태로 체계적으로 정리하였습니다.  
 > 📖 **[아키텍처 상세 Docs 바로가기](https://one-year-gap.github.io/docs/2026/02/10/%EB%B0%B1%EC%97%94%EB%93%9C-system-architecture/)**
 
-### ✅ 주요 고민 리스트
+## ✅ 주요 고민 리스트
 
 | # | 고민 내용 |
 | --- | --- |
@@ -270,7 +215,7 @@ Holiverse의 고객 화면은 **메인 분석, 상품 조회·비교, 캐릭터 
 | 3 | **비용 최적화**<br>7주 프로젝트 기간 내에 개발/스테이징/운영 환경을 60만원 예산으로 구축 |
 | 4 | **DDD 적용**<br>이전 경험을 바탕으로 현실적으로 적용 가능한 도메인 중심 설계안 검토 |
 
-### ⬇️ 아키텍처 설계 결론
+## ⬇️ 아키텍처 설계 결론
 
 최적의 시스템 성능 및 운영 효율성을 확보하기 위해, 본 프로젝트에서는 **명령(Command) 및 트랜잭션성 작업은 JPA를, 복잡한 집계·추천과 대량 처리는 jOOQ로 분리(CQRS적 접근)**하는 구조적 전략을 채택하였습니다.
 
@@ -337,14 +282,14 @@ Holiverse의 고객 화면은 **메인 분석, 상품 조회·비교, 캐릭터 
 이 프로젝트의 데이터 모델은 **member(고객)를 중심으로 상품, 상담, 캐릭터, 쿠폰, 최근 본 상품, 리프레시 토큰**까지  
 핵심 도메인을 모두 포함하는 ERD를 먼저 설계한 뒤, **모든 스키마 변경을 Flyway 마이그레이션으로만 관리**하는 전략을 사용합니다.
 
-### ERD 설계 방향
+## ERD 설계 방향
 
 - `member`를 중심으로 `상품`, `상담 이력`, `상담 키워드`, `캐릭터 유형`, `쿠폰`, `최근 본 상품`, `리프레시 토큰` 관계를 명시적으로 정의해  
   **고객 여정(가입→이용→상담→혜택/추천)** 이 하나의 데이터 모델 위에서 추적되도록 설계했습니다.
 - 온라인 트랜잭션(로그인/조회/변경)과 배치/분석용 데이터는 스키마와 테이블 단위에서 역할을 분리하여,  
   **실시간 API 성능과 배치 처리 안정성**을 동시에 확보하는 것을 목표로 합니다.
 
-### Flyway 기반 형상 관리 전략
+## Flyway 기반 형상 관리 전략
 
 - `DDL` 변경은 수동 쿼리가 아니라, **`V1__init.sql`, `V2__add_coupon_table.sql`** 과 같은 Flyway 버전 마이그레이션으로만 수행합니다.
 - 모든 환경(로컬/스테이징/프로덕션)은 **동일한 마이그레이션 히스토리**를 따라가도록 강제하여,  
@@ -357,18 +302,85 @@ Holiverse의 고객 화면은 **메인 분석, 상품 조회·비교, 캐릭터 
 
 ---
 
+## 📌 핵심 기능 (Core Features)
+
+## 상담 분석 기능
+
+상담 데이터를 정형화하여 고객 이슈를 더 빠르게 파악하고, 운영자가 대응 우선순위를 판단할 수 있도록 돕습니다.
+
+- [키워드 추출 라이브러리 선택 - 성능 지표 테스트](https://one-year-gap.github.io/docs/2026/02/28/%ED%82%A4%EC%9B%8C%EB%93%9C-%EC%B6%94%EC%B6%9C-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-%EC%84%A0%ED%83%9D-%EC%84%B1%EB%8A%A5-%EC%A7%80%ED%91%9C-%ED%85%8C%EC%8A%A4%ED%8A%B8/)
+- [키워드 매핑 라이브러리 선택 - 성능 지표 테스트](https://one-year-gap.github.io/docs/2026/02/28/%ED%82%A4%EC%9B%8C%EB%93%9C-%EB%A7%A4%ED%95%91-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-%EC%84%A0%ED%83%9D-%EC%84%B1%EB%8A%A5-%EC%A7%80%ED%91%9C-%ED%85%8C%EC%8A%A4%ED%8A%B8/)
+- [키워드 추출 & 매핑 알고리즘 설계 전략](https://one-year-gap.github.io/docs/2026/03/12/%ED%82%A4%EC%9B%8C%EB%93%9C-%EC%B6%94%EC%B6%9C-%EB%A7%A4%ED%95%91-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%84%A4%EA%B3%84-%EC%A0%84%EB%9E%B5/)
+
+- 키워드 분석
+- 키워드 추출 & 매핑 알고리즘 전략
+- 상담 감정 분석 알고리즘
+
+---
+
+## 로그 수집 기능
+
+사용자 행동 로그를 구조적으로 수집하고, 이후 추천·분석·최근 본 상품 기능까지 연결될 수 있도록 설계하였습니다.
+
+- [로그 파이프라인 1 - 로그 및 템플릿 설계](https://one-year-gap.github.io/docs/2026/03/12/%EC%A0%84%EC%B2%B4-%EB%A1%9C%EA%B7%B8-%ED%8C%8C%EC%9D%B4%ED%94%84%EB%9D%BC%EC%9D%B8-1/)
+- [로그 파이프라인 2 - 클라이언트 로그 적재 장소로 S3 도입 이유](https://one-year-gap.github.io/docs/2026/03/13/%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8-%EB%A1%9C%EA%B7%B8-%EC%A0%81%EC%9E%AC-%EC%9E%A5%EC%86%8C%EB%A1%9C-s3-%EB%8F%84%EC%9E%85-%EC%9D%B4%EC%9C%A0/)
+- [로그 파이프라인 3 - 최근 본 상품 조회](https://one-year-gap.github.io/docs/2026/03/13/%EB%A1%9C%EA%B7%B8-%ED%8C%8C%EC%9D%B4%ED%94%84%EB%9D%BC%EC%9D%B8-3-%EC%B5%9C%EA%B7%BC-%EB%B3%B8-%EC%83%81%ED%92%88-%EC%A1%B0%ED%9A%8C/)
+- [로그 파이프라인 4 - 최근 본 상품 조회 결론](https://one-year-gap.github.io/docs/2026/03/13/%EB%A1%9C%EA%B7%B8-%ED%8C%8C%EC%9D%B4%ED%94%84%EB%9D%BC%EC%9D%B8-4-%EC%B5%9C%EA%B7%BC-%EB%B3%B8-%EC%83%81%ED%92%88-%EC%A1%B0%ED%9A%8C-%EA%B2%B0%EB%A1%A0/)
+
+
+
+---
+
+## 캐릭터 배치 기능
+
+고객의 실제 사용량 데이터를 분석하여 **6가지 페르소나 중 하나를 부여하고 최적의 상품을 큐레이션**합니다.
+
+- **Data Driven:** 요금제, 데이터 사용량, 웨어러블 사용 여부 등 다각도 분석
+- **Batch Process:** 일 단위 배치를 통해 최신 고객 상태 반영 및 캐릭터 갱신
+
+---
+
+## 개인별 추천 기능
+
+수집된 대량의 데이터를 AI가 분석하여 실행 가능한 전략(Action Items)을 제안합니다.
+
+- [추천시스템 구축기 1: 추천 방식의 변화](https://one-year-gap.github.io/docs/2026/03/12/%EC%B6%94%EC%B2%9C-%EB%B0%A9%EC%8B%9D%EC%9D%98-%EB%B3%80%ED%99%94/)
+
+- 상품 임베딩
+- 개인별 추천 시스템 RAG 프롬프트
+- **사용자 행동 로그 기반:** 사용자의 행동 로그를 수집하여 추천
+- **RAG Pipeline:** 정규화된 지표 컨텍스트를 LLM에 전달하여 고품질 리포트 생성
+
+---
+
+## 이탈률 계산 기능
+
+정량적 기준(Rule Config)을 바탕으로 고객군을 분류하고 맞춤형 혜택을 제공합니다.
+
+- [이탈률 설계](https://one-year-gap.github.io/docs/2026/03/14/%EC%9D%B4%ED%83%88%EB%A5%A0-%EC%84%A4%EA%B3%84/)
+- [이탈률 가중치 점수 산출](https://one-year-gap.github.io/docs/2026/03/15/%EC%9D%B4%ED%83%88%EB%A5%A0-%EA%B0%80%EC%A4%91%EC%B9%98-%EC%A0%90%EC%88%98-%EC%82%B0%EC%B6%9C/)
+- [이탈률 feature 확정과 테이블 설계](https://one-year-gap.github.io/docs/2026/03/14/%EC%9D%B4%ED%83%88%EB%A5%A0-%ED%85%8C%EC%9D%B4%EB%B8%94-%EC%84%A4%EA%B3%84/)
+
+- 이탈률 feature 설계
+- 이탈률 가중치 점수 산출
+- 이탈률 점수 로직 아키텍처
+- **이탈 위험군 탐지:** 약정 만료 D-30, 부정 키워드 감지, 사용량 30% 급감 등 복합 조건
+- **Executive Summary:** 관리자의 신속한 의사결정을 돕는 핵심 요약 및 리스크 요인 도출
+
+---
+
 ## ⚖️ 기술 선택 근거 (Technical Decisions)
 
-### Persistence 전략: JPA와 jOOQ의 CQRS적 접근
+## Persistence 전략: JPA와 jOOQ의 CQRS적 접근
 
 우리는 **명령(Command)과 조회(Query)의 책임을 분리**하여 시스템의 안정성과 성능을 극대화했습니다.
 
-#### 1) JPA (Core / Transaction)
+## 1) JPA (Core / Transaction)
 
 - **역할:** 회원, 상품, 상담 기록 등 핵심 도메인의 OLTP성 CRUD 처리
 - **선택 이유:** 엔티티 중심의 비즈니스 로직 표현 및 Dirty Checking을 통한 트랜잭션 무결성 보장
 
-#### 2) jOOQ (Analytics / Batch)
+## 2) jOOQ (Analytics / Batch)
 
 - **역할:** 대량 데이터 집계, 통계 산출, 추천 랭킹 조회 등 OLAP성 쿼리 처리
 - **선택 이유:**
@@ -389,9 +401,13 @@ Holiverse의 고객 화면은 **메인 분석, 상품 조회·비교, 캐릭터 
 
 | 이름 | 역할 | 담당 업무 |
 | --- | --- | --- |
-| **Member 1** | Backend / Infra | API 설계, DB 아키텍처, CI/CD 구축 |
-| **Member 2** | AI / Data | LLM 파이프라인, 데이터 분석 리포트 자동화 |
-| **Member 3** | Frontend | React/Next.js 기반 대시보드 및 사용자 UI 구현 |
+| **구본문** | Backend / Batch | API 설계, DB 아키텍처, CI/CD 구축 |
+| **김도연** | AI / Data | LLM 파이프라인, 데이터 분석 리포트 자동화 |
+| **최하영** | Frontend | React/Next.js 기반 대시보드 및 사용자 UI 구현 |
+| **허영현** | Frontend | React/Next.js 기반 대시보드 및 사용자 UI 구현 |
+| **이수빈** | Frontend | React/Next.js 기반 대시보드 및 사용자 UI 구현 |
+| **박주이** | Frontend | React/Next.js 기반 대시보드 및 사용자 UI 구현 |
+| **박준형** | Frontend | React/Next.js 기반 대시보드 및 사용자 UI 구현 |
 
 ---
 
