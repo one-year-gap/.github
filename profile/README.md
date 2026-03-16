@@ -14,24 +14,24 @@
 4. [🖥️ Service UI](#service-ui)
    - [화면플로우 설계](#flow-display)
 5. [📌 핵심 기능 (Core Features)](#core-feature)
-   - [**상담 분석 기능**](#analysis-counsel)
-     - [키워드 분석](#analysis-counsel)
-     - [키워드 추출 & 매핑 알고리즘 전략](#analysis-counsel)
-     - [상담 감정 분석 알고리즘](#analysis-counsel)
-   - [**로그 수집 기능**](#log-feature)
-     - [로그 템플릿 설계](#log-feature)
-     - [로그 적재 저장소 선택 (S3 vs Postgres)](#log-feature)
-     - [최근 본 상품 조회](#log-feature)
-   - [**캐릭터 배치 기능**](#character-batch)
-     - [캐릭터 지수 산출 방식](#character-batch)
-     - [캐릭터 분류 방법 (T-score)](#character-batch)
-   - [**개인별 추천 기능**](#recommendation-ai)
+   - [상담 분석 기능](#analysis-counsel)
+     - 키워드 분석
+     - 키워드 추출 & 매핑 알고리즘 전략
+     - 상담 감정 분석 알고리즘
+   - [로그 수집 기능](#log-feature)
+     - 로그 템플릿 설계
+     - 로그 적재 저장소 선택 (S3 vs Postgres)
+     - 최근 본 상품 조회
+   - [캐릭터 배치 기능](#character-batch)
+     - 캐릭터 지수 산출 방식
+     - 캐릭터 분류 방법 (T-score)
+   - [개인별 추천 기능](#recommendation-ai)
      - [상품 임베딩](#recommendation-ai)
      - [개인별 추천 시스템 RAG 프롬프트](#recommendation-ai)
-   - [**이탈률 계산 기능**](#churn-score)
-     - [이탈률 feature 설계](#churn-score)
-     - [이탈률 가중치 점수 산출](#churn-score)
-     - [이탈률 점수 로직 아키텍쳐](#churn-score)
+   - [이탈률 계산 기능](#churn-score)
+     - 이탈률 feature 설계
+     - 이탈률 가중치 점수 산출
+     - 이탈률 점수 로직 아키텍쳐
 6. [벡엔드 아키텍쳐](#backend-arch)
 7. [도메인 아키텍쳐](#domain-arch)
 8. [인프라 아키텍쳐](#infra-arch)
