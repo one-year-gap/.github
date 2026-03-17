@@ -311,7 +311,7 @@ Holiverse의 고객 화면은 **메인 분석, 상품 조회·비교, 캐릭터 
 - [키워드 추출 라이브러리 선택 - 성능 지표 테스트](https://one-year-gap.github.io/docs/2026/02/28/%ED%82%A4%EC%9B%8C%EB%93%9C-%EC%B6%94%EC%B6%9C-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-%EC%84%A0%ED%83%9D-%EC%84%B1%EB%8A%A5-%EC%A7%80%ED%91%9C-%ED%85%8C%EC%8A%A4%ED%8A%B8/)
 - [키워드 매핑 라이브러리 선택 - 성능 지표 테스트](https://one-year-gap.github.io/docs/2026/02/28/%ED%82%A4%EC%9B%8C%EB%93%9C-%EB%A7%A4%ED%95%91-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-%EC%84%A0%ED%83%9D-%EC%84%B1%EB%8A%A5-%EC%A7%80%ED%91%9C-%ED%85%8C%EC%8A%A4%ED%8A%B8/)
 - [키워드 추출 & 매핑 알고리즘 설계 전략](https://one-year-gap.github.io/docs/2026/03/12/%ED%82%A4%EC%9B%8C%EB%93%9C-%EC%B6%94%EC%B6%9C-%EB%A7%A4%ED%95%91-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%84%A4%EA%B3%84-%EC%A0%84%EB%9E%B5/)
-
+- [감정 분석 모델 선택 - 성능 지표 테스트](https://one-year-gap.github.io/docs/2026/03/14/감정-분석-모델-선택-성능-지표-테스트/)
 - 키워드 분석
 - 키워드 추출 & 매핑 알고리즘 전략
 - 상담 감정 분석 알고리즘
