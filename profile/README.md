@@ -39,7 +39,7 @@
 8. [🏗️ 인프라 아키텍처](#️-인프라-아키텍처)
 9. [🗂️ ERD 설계 및 Flyway 기반 DB 형상 관리](#️-erd-설계-및-flyway-기반-db-형상-관리)
 10. [⚖️ 기술 선택 근거 (Technical Decisions)](#️-기술-선택-근거-technical-decisions)
-    - [Kafka 사용 이유](#카프카-도입-이유)
+    - [Kafka 사용 이유](https://github.com/one-year-gap/.github/blob/main/profile/README.md#%EC%B9%B4%ED%94%84%EC%B9%B4-%EB%8F%84%EC%9E%85-%EC%9D%B4%EC%9C%A0--:~:text=%EC%B9%B4%ED%94%84%EC%B9%B4%20%EB%8F%84%EC%9E%85%20%EC%9D%B4%EC%9C%A0,%EC%95%88%EC%A0%95%EC%A0%81%EC%9C%BC%EB%A1%9C%20%EC%A0%81%EC%9E%AC%ED%95%98%EA%B3%A0%2C%20%EB%8F%99%EC%8B%9C%EC%97%90)
 11. [🚀 추후 확장 가능성](#-추후-확장-가능성)
 12. [👥 팀 역할 소개](#-팀-역할-소개)
 
