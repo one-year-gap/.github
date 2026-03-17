@@ -345,6 +345,7 @@ Holiverse의 고객 화면은 **메인 분석, 상품 조회·비교, 캐릭터 
 수집된 대량의 데이터를 AI가 분석하여 실행 가능한 전략(Action Items)을 제안합니다.
 
 - [추천시스템 구축기 1: 추천 방식의 변화](https://one-year-gap.github.io/docs/2026/03/12/%EC%B6%94%EC%B2%9C-%EB%B0%A9%EC%8B%9D%EC%9D%98-%EB%B3%80%ED%99%94/)
+- [추천 시스템 구축기 2: 상품 임베딩 및 개인별 추천 시스템 RAG](https://one-year-gap.github.io/docs/2026/03/12/%EC%83%81%ED%92%88-%EC%9E%84%EB%B2%A0%EB%94%A9-%EB%B0%8F-%EA%B0%9C%EC%9D%B8%EB%B3%84-%EC%B6%94%EC%B2%9C-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EC%84%A4%EA%B3%84/)
 
 - 상품 임베딩
 - 개인별 추천 시스템 RAG 프롬프트
