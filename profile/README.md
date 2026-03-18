@@ -132,6 +132,7 @@
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white">
   <img src="https://img.shields.io/badge/H2_Database-00519E?style=for-the-badge&logo=sqlite&logoColor=white">
   <img src="https://img.shields.io/badge/Flyway-CC0000?style=for-the-badge&logo=flyway&logoColor=white">
+  <img src="https://img.shields.io/badge/Amazon_S3-FF9900?style=for-the-badge&logo=amazons3&logoColor=white">
 </p>
 
 - **RDBMS:** PostgreSQL (핵심 트랜잭션), pgvector (벡터 임베딩 및 유사도 검색)
