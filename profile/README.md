@@ -73,7 +73,7 @@
       <img src="https://avatars.githubusercontent.com/tkv00?v=4" width="120" height="120"/><br/>
       <b>김도연</b><br/>
       <a href="https://github.com/tkv00">@tkv00</a><br/><br/>
-      <sub>담당 업무 작성 예정</sub>
+      <sub>INFRA/이탈률 설계 및 파이프라인 구축</sub>
     </td>
     <td align="center" width="220">
       <img src="https://avatars.githubusercontent.com/rettooo?v=4" width="120" height="120"/><br/>
@@ -114,7 +114,7 @@
   </tr>
 </table>
 
-## FrontEnd
+
 
 ---
 
