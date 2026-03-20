@@ -81,13 +81,15 @@
       <img src="https://avatars.githubusercontent.com/rettooo?v=4" width="120" height="120"/><br/>
       <b>최하영</b><br/>
       <a href="https://github.com/rettooo">@rettooo</a><br/><br/>
-      <sub>담당 업무 작성 예정</sub>
+      <sub>로그 파이프라인 구축</sub><br/>
+       <sub>추천 LLM 구축</sub>
     </td>
     <td align="center" width="220">
       <img src="https://avatars.githubusercontent.com/YeongHyeonHeo?v=4" width="120" height="120"/><br/>
       <b>허영현</b><br/>
       <a href="https://github.com/YeongHyeonHeo">@YeongHyeonHeo</a><br/><br/>
-      <sub>담당 업무 작성 예정</sub>
+      <sub>데이터베이스 구축 및 유지보수</sub><br/>
+       <sub>상담 키워드 분석 시스템 구축</sub>
     </td>
   </tr>
 </table>
