@@ -67,7 +67,8 @@
       <img src="https://avatars.githubusercontent.com/bon0512?v=4" width="120" height="120"/><br/>
       <b>구본문</b><br/>
       <a href="https://github.com/bon0512">@bon0512</a><br/><br/>
-      <sub>담당 업무 작성 예정</sub>
+      <sub>팀장</sub><br/>
+      <sub>캐릭터배치, 로그파이브라인 적재과정 구축</sub>
     </td>
     <td align="center" width="220">
       <img src="https://avatars.githubusercontent.com/tkv00?v=4" width="120" height="120"/><br/>
