@@ -98,7 +98,7 @@
       <img src="https://avatars.githubusercontent.com/dahlia0916?v=4" width="120" height="120"/><br/>
       <b>이수빈</b><br/>
       <a href="https://github.com/dahlia0916">@dahlia0916</a><br/><br/>
-      <sub>클라이언트 로깅, 지역별 통계, 로그인 연동</sub>
+      <sub>클라이언트 로깅, 지역별 통계, 로그인 api 연동</sub>
     </td>
     <td align="center" width="220">
       <img src="https://avatars.githubusercontent.com/Zoo2-bi?v=4" width="120" height="120"/><br/>
