@@ -128,7 +128,9 @@
 
 ## 서비스 트래픽 산출 근거
 
-<img src="/Users/haing/Ureka/최종 프로젝트/.github/profile/image.png" width="1000">
+   <img width="2816" height="1536" alt="Gemini_Generated_Image_3flk2n3flk2n3flk (1)" src="https://github.com/user-attachments/assets/e0e20263-7dd2-4559-82fc-778b15ba527a" />
+
+
 
 - **통신사 규모:** LG U+ 모바일 가입자(약 1,100만 명) 및 5G 성장세 기반
 - **실제 웹 트래픽:** 공식 채널 월 방문자 약 1,100만 명(일 평균 30만 명) 데이터 활용
