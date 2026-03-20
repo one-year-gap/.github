@@ -98,19 +98,19 @@
       <img src="https://avatars.githubusercontent.com/dahlia0916?v=4" width="120" height="120"/><br/>
       <b>이수빈</b><br/>
       <a href="https://github.com/dahlia0916">@dahlia0916</a><br/><br/>
-      <sub>담당 업무 작성 예정</sub>
+      <sub>클라이언트 로깅, 지역별 통계, 로그인 연동</sub>
     </td>
     <td align="center" width="220">
       <img src="https://avatars.githubusercontent.com/Zoo2-bi?v=4" width="120" height="120"/><br/>
       <b>박주이</b><br/>
       <a href="https://github.com/Zoo2-bi">@Zoo2-bi</a><br/><br/>
-      <sub>담당 업무 작성 예정</sub>
+      <sub>상품,추천,고객특성,상담이력 api 연동</sub>
     </td>
     <td align="center" width="220">
       <img src="https://avatars.githubusercontent.com/joonhyong?v=4" width="120" height="120"/><br/>
       <b>박준형</b><br/>
       <a href="https://github.com/joonhyong">@joonhyong</a><br/><br/>
-      <sub>담당 업무 작성 예정</sub>
+      <sub>마이,메인,캐릭터유형,이탈률,고객관리 api 연동</sub>
     </td>
   </tr>
 </table>
