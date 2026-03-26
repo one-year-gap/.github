@@ -342,8 +342,10 @@ Holiverse의 고객 화면은 **메인 분석, 상품 조회·비교, 캐릭터 
   **애플리케이션·DB·AWS 인프라 메트릭을 한 곳에서 관측**하며, 접근은 SSM Port Forwarding으로만 허용해  
   **모니터링 시스템 자체도 내부망 + IAM/Secrets 기반**으로 안전하게 운영합니다.
 
-> 상세한 인프라 구성과 CI/CD·모니터링 설계는 📖  
-> **[1차 MVP Infrastructure Architecture(V1)](https://one-year-gap.github.io/docs/2026/02/24/1%EC%B0%A8-mvp-infrastructure-architecture-v1/)** 문서에 정리해 두었습니다.
+> 상세한 인프라 구성과 CI/CD·모니터링 설계는 📖
+> **[AWS CDK(JAVA) 선택 이유](https://one-year-gap.github.io/docs/2026/02/10/aws-cdk-with-java%EB%A5%BC-%EC%84%A0%ED%83%9D%ED%95%9C-%EC%9D%B4%EC%9C%A0/)** 문서에 정리해 두었습니다.
+> **[Network Architecture](https://one-year-gap.github.io/docs/2026/03/17/infra-architecture-network/)** 문서에 정리해 두었습니다.
+> **[CI/CD/CT Architecture](https://one-year-gap.github.io/docs/2026/03/17/infra-architecture-ci-cd-ct/)** 문서에 정리해 두었습니다.
 
 ---
 
