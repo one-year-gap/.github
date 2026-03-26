@@ -344,8 +344,8 @@ Holiverse의 고객 화면은 **메인 분석, 상품 조회·비교, 캐릭터 
 
 > 상세한 인프라 구성과 설계 배경은 아래 문서에 정리했습니다.  
 > - [AWS CDK(Java)를 선택한 이유](https://one-year-gap.github.io/docs/2026/02/10/aws-cdk-with-java%EB%A5%BC-%EC%84%A0%ED%83%9D%ED%95%9C-%EC%9D%B4%EC%9C%A0/)  
-> - [Network Architecture](https://one-year-gap.github.io/docs/2026/03/17/infra-architecture-network/)  
-> - [CI/CD/CT Architecture](https://one-year-gap.github.io/docs/2026/03/17/infra-architecture-ci-cd-ct/)
+> - [Network Architecture - 2개의 ALB, 2개의 AZ, 9개의 Security Group](https://one-year-gap.github.io/docs/2026/03/17/infra-architecture-network/)  
+> - [CI/CD/CT Architecture - 서비스 배포 50.9% 단축, 모니터링 반영 81.6% 단축](https://one-year-gap.github.io/docs/2026/03/17/infra-architecture-ci-cd-ct/)
 
 ---
 
