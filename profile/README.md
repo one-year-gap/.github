@@ -8,7 +8,12 @@
 ---
 
 ## 🔗 바로가기
-
+- **API 서버**: [GitHub Repository](https://github.com/one-year-gap/api-server)
+- **인프라**:  [GitHub Repository](https://github.com/one-year-gap/infra)
+- **상담 분석/추천 서버**: [Github Repostiroy](https://github.com/one-year-gap/intelligence-server)
+- **관리자 프론트**: [Github Repository](https://github.com/one-year-gap/admin-fe)
+- **고객 프론트**: [Github Repostiroy](https://github.com/one-year-gap/customer-fe)
+- **배치 서버**: [Github Repostiroy](https://github.com/one-year-gap/worker)
 - **기술 문서 / 아키텍처 위키**: [GitHub Wiki](https://one-year-gap.github.io/docs/)
 - **프로젝트 문서화**: [Notion](https://oxidized-cornflower-232.notion.site/2fd8a2b69065809fb671d47a8189b846)
 - **이슈 / 스프린트 관리**: [Jira](https://tkv00123.atlassian.net/jira/software/projects/HSC/boards/2/timeline?atlOrigin=eyJpIjoiMGE4ZGY1NDVkYzZlNDY1YzgzMTQ2NDA0NmQ2MGM3ZDEiLCJwIjoiaiJ9)
