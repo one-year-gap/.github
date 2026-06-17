@@ -1,4 +1,4 @@
-# 🌌 Holiverse
+# 🌌 Holliverse
 
 ## 👑URECA 3기 최종 융합프로젝트 우수상👑
 
